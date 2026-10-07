@@ -1,0 +1,100 @@
+# ==========================================
+# Compiled Binaries & Object Files
+# ==========================================
+*.o
+*.obj
+*.so
+*.so.*
+*.dylib
+*.dll
+*.a
+*.lib
+*.la
+*.lai
+*.lo
+
+# Executables (No extension on Unix/Linux)
+*.exe
+*.out
+*.app
+
+# Common test/demo output binaries
+a.out
+*.elf
+
+# ==========================================
+# Build System Outputs
+# ==========================================
+
+# Standard Build / Output directories
+build/
+bin/
+obj/
+out/
+dist/
+
+# Make / Autotools
+Makefile.in
+.deps/
+.libs/
+*.status
+*.gen
+stamp-h1
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakePaths.cmake
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+_deps/
+
+# Meson / Ninja
+meson-logs/
+meson-private/
+.ninja_deps
+.ninja_log
+
+# ==========================================
+# Debug & Profiling / Sanitizer Outputs
+# ==========================================
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.ilk
+*.gcov
+*.gcda
+*.gcno
+gmon.out
+valgrind-*.log
+asan.log.*
+
+# ==========================================
+# IDEs & Code Editors
+# ==========================================
+
+# VS Code
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# CLion / JetBrains
+.idea/
+cmake-build-*/
+
+# Vim / Emacs
+*~
+*.swp
+*.swo
+.\#*
+\#*\#
+
+# macOS / OS Artifacts
+.DS_Store
+Thumbs.db
